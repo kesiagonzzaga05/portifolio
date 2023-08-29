@@ -1,0 +1,31 @@
+header{
+    background-color: #f28ddc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo1{
+
+    width: 200px;
+  }
+  .navbar{
+    justify-content:space-between;
+    display:flex;
+    justify-content:flex-end;
+    list-style:none; 
+  }
+  img{
+    width:100px;
+  }
+  .S{
+    border:solid;
+    border-radius:5px;
+    color:#f0389a;
+    border:double #f0389a;
+    margin-left: 30px;
+    font-size:25px;
+    text-decoration:none;
+  }
+  
+  
+  
