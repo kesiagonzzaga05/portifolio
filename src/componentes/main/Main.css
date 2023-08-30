@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(237, 216, 216);
+}
+.foto{
+    display: flex;
+    width: 500px;
+    border-radius: 500px;
+    background-color:  rgb(246, 194, 202);
+    top: 80px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text{
+    font-size: 28px;
+    padding: 35px;
+    text-align: center;
+}
+

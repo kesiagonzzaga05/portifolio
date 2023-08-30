@@ -1,42 +1,45 @@
 import './Footer.css'
+import { FacebookLogo, InstagramLogo,TiktokLogo,TwitterLogo} from "phosphor-react";
 export default function
   Footer() {
   return (
     <footer>
-      <div className='container'>
-        <p className='P1'> Explore um universo mágico de diversão, moda e aventuras com o site oficial da Barbie.Entre em um mundo encantado onde a imaginação se torna realidade e as possibilidades são infinitas. Descubra tudo o que o nosso site tem a oferecer</p> 
-    </div>
-        
       <nav className='nav'> 
+        <div className='container'>
+            <img className="logo2" src="/k.logo.png" alt=""/>
+       </div>
         <li>
           <a className='A' href='#'>Produtos</a>
-          <h3 className='B'> Compras Barbie </h3>
-          <h3 className='B'> Compras Vestidos </h3>
-          <h3 className='B'> Compras DreamHouse </h3>
-          <h3 className='B'> Compras Bonecas Premium </h3>
+          <h3 className='B'> Dicas Moda </h3>
+          <h3 className='B'> Fotos Viagens </h3>
+          <h3 className='B'> Projetos </h3>
         </li>
         <li>
-          <a className='A' href='#'>Aplicativos</a>
-           <h3 className='B'>Jogos On-line </h3>
-          <h3 className='B'> Jogos IOS </h3>
-          <h3 className='B'> Jogos Android </h3>
-          <h3 className='B'> Jogos Tabuleiro </h3>
+          <a className='A' href='#'>Sobre</a>
+           <h3 className='B'>Trabalhos </h3>
+          <h3 className='B'> Redes Sociais </h3>
+          <h3 className='B'> Sobre Mim</h3>
         </li>
         <li>
           <a className='A' href='#'>Contato</a>
-           <h3 className='B'>Contato</h3>
-          <h3 className='B'> Recall de Produtos </h3>
+           <h3 className='B'>E-mail</h3>
+          <h3 className='B'> Telefone </h3>
           <h3 className='B'> Segurança </h3>
-          <h3 className='B'> Oportunidade de Empregos</h3>
         </li>
         <li>
           <a className='A' href='#'>Serviços</a>
            <h3 className='B'>Termos e Permissões </h3>
           <h3 className='B'> Declaração e tecnologia</h3>
           <h3 className='B'> Cookie Preferencias</h3>
-          <h3 className='B'> Declaração de Acessibilidade </h3>
         </li>
       </nav>
+      <div className='logo'>
+      <FacebookLogo size={30} weight="bold"/>
+      <InstagramLogo size={30} weight="bold"/>
+      <TiktokLogo size={30} weight="bold"/>
+      <TwitterLogo size={30} weight="bold"/>
+      </div>
+      
     </footer>
   )
 }

@@ -13,13 +13,13 @@ export default function
           <a className='S' href='#'>Home</a>
         </li>
         <li>
-          <a className='S' href='#'>Notícia</a>
+          <a className='S' href='#'>Fotos</a>
         </li>
         <li>
-          <a className='S' href='#'>Sobre</a>
+          <a className='S' href='#'>Sobre Mim</a>
         </li>
         <li>
-          <a className='S' href='#'>Contato</a>
+          <a className='S' href='#'>Trabalhos</a>
         </li>
       </nav>
     </header>

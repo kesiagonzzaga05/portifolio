@@ -1,20 +1,13 @@
 footer{
-    background-color:#f28ddc;
+    background-color:#bc87b0;
     height: 290px;
     margin-top: 700px;
   }
-.container img{
+.container{
     height: 50px;
     width: 100px;
     margin-top: 50px;
     margin-left: 185px;
-    display: flex;
-    justify-content: center;
-  }
-  .container p{
-   text-align: center;  
-  }
-  .logo{
     display: flex;
     justify-content: center;
   }
@@ -24,7 +17,7 @@ footer{
     justify-content:center;
     width:25%;
   }
- 
+
   .P1{
     font-size: 18px;
    
@@ -37,6 +30,7 @@ footer{
   }
   .nav li {
     width: 20%;
+    margin-top: 4%;
   }
   .A{
     justify-content:center;
@@ -45,12 +39,32 @@ footer{
     margin-top: 10px;
     font-size:20px;
     text-decoration:none;
-    color:#df076f;
+    color:#ffffff;
+
   }
   .B{
-    color:whitesmoke;
+    color:rgb(0, 0, 0);
     margin-left:100px;
     font-size:15px;
-   
+    cursor: pointer;
   }
-  
+  .B:hover{
+    color: rgb(255, 255, 255);
+
+  }
+ .lista {
+  margin: 10px;
+ }
+
+  .logo2{
+    width: 300px;
+    margin-top: 25%;
+    margin-left: 1%;
+  }
+  .logo{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 13%;
+  gap: 10px;
+  }
+ 
