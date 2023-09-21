@@ -32,7 +32,7 @@ export default function Projetos(){
         {
             id:4,
             titulo:"Viagem Técnica",
-            sinopse:"Desde pequena sempre quis dirigir caminhão, então realizei meu sonho trabalhando na CCR MS como guincho",
+            sinopse:"O IFMS, realizou uma viagem técnica com os alunos para Foz do Iguaçu. Visitamos a Usina Hidrelétrica Binacional Itaipu e as Cataratas do Iguaçu. Clique para ver as fotos da nossa viagem! ",
             imagem:"/img12.png"
         },
     
