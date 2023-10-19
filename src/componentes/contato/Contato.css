@@ -1,0 +1,24 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rosybrown;
+    width: 350px;
+    height: 230px;
+    border-radius: 20px;
+    padding: 25px;
+
+}
+
+.container-contato{
+    padding: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.botao{
+    width: 70px;
+    height: 35px;
+    background-color: white;
+    margin-left: 38%;
+    margin-top: 7px;
+}

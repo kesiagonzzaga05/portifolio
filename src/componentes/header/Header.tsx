@@ -1,27 +1,28 @@
 import './Header.css'
-export default function
-  Header() {
-  return (
-    <header>
-      <div className="margin">
-
-          <img className="logo1" src="/k.logo.png" alt=""/>
-
-      </div>
-      <nav className='navbar'>
-        <li>
-          <a className='S' href='#'>Home</a>
-        </li>
-        <li>
-          <a className='S' href='#'>Fotos</a>
-        </li>
-        <li>
-          <a className='S' href='#'>Sobre Mim</a>
-        </li>
-        <li>
-          <a className='S' href='#'>Trabalhos</a>
-        </li>
-      </nav>
-    </header>
-  )
+import { Link } from 'react-router-dom'
+function Header(){
+    return(
+        <header>
+            <div>
+                <Link to="/"><img src='/k.logo.png'/></Link>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <Link to="/">Página Inicial</Link>
+                    </li>
+                    <li>
+                        <Link to="/sobre">Página Sobre</Link>
+                    </li>
+                    <li>
+                        <Link to="/noticias">Página de Notícias</Link>
+                    </li>
+                    <li>
+                        <Link to="/contato">Página de Contato</Link>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    )
 }
+export default Header
