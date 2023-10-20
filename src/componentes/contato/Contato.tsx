@@ -5,9 +5,10 @@ Contato(){
         <main className='container-contato'>
             <div className='texto'>
                 <h1> Entre em Contato </h1>
-                <p> </p>
+                <p>Entre em contato com o serviço on-line para obter ajuda rápida e eficiente. Por meio do E-mail, Telefone ou Feedback. A equipe está pronta para atender ás suas necessidades.</p>
+            <div className='contato'>
             </div>
-
+            </div>
             <div className='formulario'>
                 <p> Nome completo</p>
                 <input id="link" name="Digite o seu Nome Completo" placeholder="Digite o seu Nome Completo" type="texto" />

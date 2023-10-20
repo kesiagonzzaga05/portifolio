@@ -20,7 +20,6 @@ const router = createBrowserRouter([
     <Main/>
     <Projetos/>
     <Footer/>
-    <Contato/>
       </>,
   },
   {

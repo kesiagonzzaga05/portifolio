@@ -9,7 +9,6 @@
     padding: 25px;
 
 }
-
 .container-contato{
     padding: 150px;
     display: flex;
@@ -21,4 +20,16 @@
     background-color: white;
     margin-left: 38%;
     margin-top: 7px;
+}
+.texto{
+    text-align: center;  
+    font-size: 18px;
+    padding: 40px;
+    width: 25%;
+    color: black;
+}
+.contato{
+    font-size: 15px;
+    padding: 30px;
+    text-align: center;
 }
